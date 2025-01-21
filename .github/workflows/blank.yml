@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
 
       # Runs a bash command
-      - name: Run a multi-line script
+      - name: Run a bash command
         run: |
           pwd
           ls -alh
