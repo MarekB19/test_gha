@@ -41,9 +41,8 @@ jobs:
           pwd
           ls -alh
           
-    # Runs a bash script
-      - name: Run a bash script
-        run: |
-          bash script.sh
+    # # Runs a bash script --- fix..
+    #   - name: Run a bash script
+    #     run: bash script.sh
         
     
