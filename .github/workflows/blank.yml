@@ -40,3 +40,10 @@ jobs:
         run: |
           pwd
           ls -alh
+          
+    # Runs a bash script
+      - name: Run a bash script
+        run: |
+          bash script.sh
+        
+    
